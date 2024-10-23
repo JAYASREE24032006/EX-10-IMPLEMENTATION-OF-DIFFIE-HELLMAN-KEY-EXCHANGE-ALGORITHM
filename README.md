@@ -1,4 +1,4 @@
-# EX10 - IMPLEMENTATION OF DIFFIE HELLMAN KEY EXCHANGE ALGORITHM
+# EX10 - DIFFIE-HELLMAN KEY EXCHANGE ALGORITHM
 ## AIM :
 To implement the Diffie-Hellman Key Exchange algorithm using C language.
 
