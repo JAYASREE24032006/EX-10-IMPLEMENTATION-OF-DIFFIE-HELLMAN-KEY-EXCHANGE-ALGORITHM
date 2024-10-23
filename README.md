@@ -1,27 +1,27 @@
-# EX-10 : IMPLEMENTATION-OF-DIFFIE-HELLMAN-KEY-EXCHANGE-ALGORITHM
-## AIM:
+# EX10 - IMPLEMENTATION OF DIFFIE HELLMAN KEY EXCHANGE ALGORITHM
+## AIM :
 To implement the Diffie-Hellman Key Exchange algorithm using C language.
 
-## ALGORITHM:
-### STEP-1: 
+## ALGORITHM :
+### STEP 1 : 
 Both Alice and Bob shares the same public keys g and p.
 
-### STEP-2:
+### STEP 2 :
 Alice selects a random public key a.
 
-### STEP-3: 
+### STEP 3 : 
 Alice computes his secret key A as g a mod p.
 
 ### STEP-4: 
 Then Alice sends A to Bob.
 
-### STEP-5: 
+### STEP 5 : 
 Similarly Bob also selects a public key b and computes his secret key as B and sends the same back to Alice.
 
-### STEP-6: 
+### STEP 6 : 
 Now both of them compute their common secret key as the other one’s secret key power of a mod p.
 
-## PROGRAM:
+## PROGRAM :
 ```
 #include <stdio.h>
 #include <math.h>
@@ -122,10 +122,10 @@ int main() {
     return 0;
 }
 ```
-## OUTPUT:
+## OUTPUT :
 ![image](https://github.com/user-attachments/assets/cb72d9db-c7be-44be-8088-89319ff01d37)
 
 
 
-## RESULT:
-Thus the Diffie-Hellman key exchange algorithm had been successfully implemented using C
+## RESULT :
+The program to implement the Diffie-Hellman key exchange algorithm had been successfully executed using C.
