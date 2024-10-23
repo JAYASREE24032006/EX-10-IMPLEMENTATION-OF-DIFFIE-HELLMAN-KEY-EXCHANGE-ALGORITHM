@@ -1,6 +1,9 @@
 # EX10 - DIFFIE-HELLMAN KEY EXCHANGE ALGORITHM
 ## AIM :
 To implement the Diffie-Hellman Key Exchange algorithm using C language.
+## THEORM :
+
+The Diffie-Hellman Key Exchange Algorithm is a cryptographic method that allows two parties to securely share a secret key over a public channel. It works by each party exchanging public values and using their private keys to independently compute a shared secret, without transmitting the actual key itself.
 
 ## ALGORITHM :
 ### STEP 1 : 
